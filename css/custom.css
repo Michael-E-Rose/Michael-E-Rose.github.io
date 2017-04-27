@@ -1,0 +1,25 @@
+body {
+    margin-top:50px;
+    background:#3d4f8f !important;
+    height:100%;
+    font:16px/1.8 sans-serif;
+    font-weight:400;
+    color:#faebd7 !important;
+}
+
+.jumbotron {
+    background-color:transparent !important;
+}
+
+a {
+    color:#2c2926;
+}
+
+h1, h2, h3{
+    color:#faebd7 !important;
+}
+
+papertitle {
+    font-style: italic;
+    font-size:1.2em;
+}
