@@ -1,6 +1,7 @@
 body {
-    margin-top:50px;
-    background:#3d4f8f !important;
+    margin:0;
+    padding:0;
+    background:#7783b0 !important;
     height:100%;
     font:16px/1.8 sans-serif;
     font-weight:400;
@@ -20,6 +21,14 @@ h1, h2, h3{
 }
 
 papertitle {
-    font-style: italic;
+    font-style:italic;
     font-size:1.2em;
 }
+
+#intro {
+    margin-top:50px;
+    padding: 0 0 10%;
+    background-color:#3d4f8f;
+    margin:0;
+}
+

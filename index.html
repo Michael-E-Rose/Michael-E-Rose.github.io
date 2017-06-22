@@ -18,121 +18,140 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script src="js/wow.min.js"></script>
+  <script src="js/init.js"></script>
   <script src="https://use.fontawesome.com/607e4858ce.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-64878652-1', 'auto');
     ga('send', 'pageview');
   </script>
 
 </head>
 
-
-<header class="panel-heading">
-  <div class="jumbotron">
-    <h1>Michael E. Rose</h1>
-    <p>Innovation & Labor &middot; Social Network Analysis &middot; Economics of Science &middot; Political Economy of Central Banks
-  </div>
-</header>
-
 <body>
-
-  <!-- Intro -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <p>Welcome and <em>Moin</em>! I am a PhD student in Economics at the University of Cape Town under the supervision of <a href="http://co-georg.de/" target="_self">Co-Pierre Georg</a> until 2018.</p>
-        <p>I'm also a Research Affiliate of the Kiel Institute for the World Economy.</p>
-        <br><br>
-        <button type="button" class="btn btn-secondary" onclick="location.href = 'https://www.dropbox.com/s/xwhx7l91hxi513a/CV_MERose.pdf?dl=0';" target="_self"><strong><a>Download CV</a></strong></button>
-
+  <section id="intro">
+    <header class="panel-heading">
+      <div class="jumbotron">
+        <h1>Michael E. Rose</h1>
+        <p>Innovation & Labor &middot; Social Network Analysis &middot; Economics of Science &middot; Political Economy of Central Banks
       </div>
-      <div class="col-md-4 text-right">
-        <img src="img/main.png" width="80%" style="float:left">
+    </header>
+
+    <!-- Intro -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p>Welcome and <em>Moin</em>! I am a PhD student in Economics at the University of Cape Town under the supervision of <a href="https://cogeorg.github.io/" target="_self">Co-Pierre Georg</a> until 2018.</p>
+          <p>I'm also a Research Affiliate of the Kiel Institute for the World Economy.</p>
+          <br><br>
+          <button type="button" class="btn btn-secondary animated bounce" onclick="location.href = 'https://www.dropbox.com/s/xwhx7l91hxi513a/CV_MERose.pdf?dl=0';" target="_self"><strong><a>Download CV</a></strong></button>
+
+        </div>
+        <div class="col-md-4 text-right">
+          <img src="img/main.png" width="80%" style="float:left">
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <br>
 
-  <!-- Research -->
-  <div class="container">
-    <h1><b>Research</b></h1>
-    <ul>
-      <h2><li>Working Papers:</li></h2>
+  <section id="research">
+    <div class="container active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
       <ul>
-        <li>"<papertitle>Mirror, Mirror, on the Wall, Who is the Most Central of Them All?</papertitle>"</li>
-        <p class="text-left"><i class="fa fa-newspaper-o"></i> <a href="http://www.econrsa.org/publications/working-papers/mirror-mirror-wall-who-most-central-them-all" target="_blank">ERSA Working Paper 571</a>, Jan 2016</p>
-        <p class="text-left"><i class="fa fa-bookmark"></i> SSRN: <a href="http://ssrn.com/abstract=2709107" target="_self">2709107</a>, Dec 2015</p>
-        <p class="text-left"><i class="fa fa-users"></i> with Co-Pierre Georg (UCT & Deutsche Bundesbank)</p>
+        <h2><li>Working Papers:</li></h2>
+        <ul>
+          <li>
+            "<papertitle>Informal Intellectual Collaboration with Central Colleagues</papertitle>"
+            <p class="text-left"><i class="fa fa-newspaper-o"></i> <a href="https://www.ifw-members.ifw-kiel.de/publications/informal-intellectual-collaboration-with-central-colleagues/kwp_2084.pdf" target="_blank">Kiel Working Paper 2084</a>, June 2017</p>
+            <p class="text-left"><i class="fa fa-file-pdf-o"></i> SSRN: <a href="https://ssrn.com/abstract=2877586" target="_self">2877586</a>, Dec 2016</p>
+            <p class="text-left"><i class="fa fa-users"></i> with Co-Pierre Georg (UCT & Deutsche Bundesbank) and Daniel C. Opolot (UCT)</p>
+          </li>
+          <li>
+            "<papertitle>Mirror, Mirror, on the Wall, Who is the Most Central of Them All?</papertitle>"
+            <p class="text-left"><i class="fa fa-newspaper-o"></i> <a href="http://www.econrsa.org/publications/working-papers/mirror-mirror-wall-who-most-central-them-all" target="_blank">ERSA Working Paper 571</a>, Jan 2015</p>
+            <p class="text-left"><i class="fa fa-file-pdf-o"></i> SSRN: <a href="http://ssrn.com/abstract=2709107" target="_self">2709107</a>, Dec 2015</p>
+            <p class="text-left"><i class="fa fa-users"></i> with Co-Pierre Georg (UCT & Deutsche Bundesbank)</p>
+          </li>
+        </ul>
+        <br>
+        <h2><li>Work in Progress:</li></h2>
+        <ul>
+          <li>
+            "<papertitle>(How) Does Academic Research Influence Financial Policy?</papertitle>"
+          </li>
+          <li>
+            "<papertitle>Informal Contacts in Hiring: The Economics Job Market</papertitle>"
+            <p class="text-left"><i class="fa fa-users"></i> with Suraj Shekhar (UCT)</p>
+          </li>
+          <li>
+            "<papertitle>The Rate of Scientific Progress and the Structure of the Scientific Community</papertitle>"
+            <p class="text-left"><i class="fa fa-users"></i> with Daniel C. Opolot (UCT)</p>
+          </li>
+        </ul>
       </ul>
-      <br>
-      <h2><li>Work in Progress:</li></h2>
+    </div>
+  </section>
+
+  <br>
+
+  <section id="software">
+    <div class="container active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h1><b>Software</b></h1>
       <ul>
-        <li>"<papertitle>Informal Intellectual Collaboration with Central Colleagues</papertitle>"</li>
-        <p class="text-left"><i class="fa fa-bookmark"></i> SSRN: <a href="https://ssrn.com/abstract=2877586" target="_self">2877586</a>, Dec 2016</p>
-        <p class="text-left"><i class="fa fa-users"></i> with Co-Pierre Georg (UCT & Deutsche Bundesbank) and Daniel C. Opolot (UCT)</p>
-        <li>(<u>Job Market Paper</u>) "<papertitle>Informal Contacts in Hiring: The Economics Job Market</papertitle>"</li>
-        <p class="text-left"><i class="fa fa-users"></i> with Suraj Shekhar (UCT)</p>
+        <h2><li>www.Central-Places.net</li></h2>
+        <p><a href="http://co-georg.de/" target="_self">Co-Pierre Georg</a> and I have developed a website to accompany our projects on informal collaboration in financial economics. &nbsp;You will find a ranking of financial economists based on their centrality in the network of informal collaboration and interesting facts in the <a href="http://blog.central-places.net">blog</a>.</p>
+        <i class="fa fa-bookmark"></i> <a href="http://www.Central-Places.net">www.Central-Places.net</a>
+
+        <h2><li>scopus</li></h2>
+        <p><a href="http://kitchingroup.cheme.cmu.edu/" target="_self">John Kitchen</a> and I develop scopus, being a Python module for easy, large-scale interaction with Elsevier's Scopus bibliometric database.</p>
+        <p><i class="fa fa-bookmark"></i> <a href="https://scopus.readthedocs.io/en/latest/" target="_self">scopus</a> on rtfd.org</p>
+        <p class="text-left"><i class="fa fa-github";></i> <a href="https://github.com/scopus-api/scopus">GitHub repo</a></p>
+
+        <h2><li>scholarmetrics</li></h2>
+        <p>I develop scholarmetrics, a python package for fast computation of citation metrics.</p>
+        <p class="text-left"><i class="fa fa-bookmark"></i> <a href="scholarmetrics.readthedocs.io/en/latest/" target="_blank">scholarmetrics</a> on rtfd.org</p>
+        <p class="text-left"><i class="fa fa-github";></i> <a href="https://github.com/Michael-E-Rose/scholarmetrics">GitHub repo</a></p>
+
+        <h2><li>networkx</li></h2>
+        <p>I help developing networkx, being THE python package for network analyses.</p>
+        <p><i class="fa fa-bookmark"></i> <a href="https://networkx.readthedocs.io/en/latest/" target="_self">networkx</a> on rtfd.org</p>
+        <p class="text-left"><i class="fa fa-github";></i> <a href="https://github.com/networkx/networkx">GitHub repo</a></p>
+
       </ul>
-    </ul>
-  </div>
+    </div>
+  </section>
 
   <br>
 
-  <!-- Software -->
-  <div class="container">
-    <h1><b>Software</b></h1>
-    <ul>
-      <h2><li>www.Central-Places.net</li></h2>
-      <p><a href="http://co-georg.de/" target="_self">Co-Pierre Georg</a> and I have developed a website to accompany our <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2709107">paper</a> on informal collaboration in financial economics. &nbsp;You will find a ranking of financial economists based on their centrality in the network of informal collaboration and many more interesting facts in the <a href="http://blog.central-places.net">blog</a></p>
-      <i class="fa fa-bookmark"></i> <a href="http://www.Central-Places.net">www.Central-Places.net</a>
+  <section id="recommendations">
+    <div class="container active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h1><b>Learning from the Masters</b></h1>
 
-      <h2><li>scopus</li></h2>
-      <p><a href="http://kitchingroup.cheme.cmu.edu/" target="_self">John Kitchen</a> and I develop scopus, being a Python module for easy, large-scale interaction with Elsevier's Scopus bibliometric database.</p>
-      <p><i class="fa fa-bookmark"></i> <a href="https://scopus.readthedocs.io/en/latest/" target="_self">scopus</a> on rtfd.org</p>
-      <p class="text-left"><i class="fa fa-github";></i> <a href="https://github.com/scopus-api/scopus">GitHub repo</a></p>
-
-      <h2><li>scholarmetrics</li></h2>
-      <p>I develop scholarmetrics, a python package for fast computation of citation metrics.</p>
-      <p class="text-left"><i class="fa fa-bookmark"></i> <a href="scholarmetrics.readthedocs.io/en/latest/" target="_blank">scholarmetrics</a> on rtfd.org</p>
-      <p class="text-left"><i class="fa fa-github";></i> <a href="https://github.com/Michael-E-Rose/scholarmetrics">GitHub repo</a></p>
-
-      <h2><li>networkx</li></h2>
-      <p>I help developing networkx, being THE python package for network analyses.</p>
-      <p><i class="fa fa-bookmark"></i> <a href="https://networkx.readthedocs.io/en/latest/" target="_self">networkx</a> on rtfd.org</p>
-      <p class="text-left"><i class="fa fa-github";></i> <a href="https://github.com/networkx/networkx">GitHub repo</a></p>
-
-    </ul>
-  </div>
-
-  <br>
-
-  <!-- Recommendations -->
-  <div class="container">
-    <h1><b>Learning from the Masters</b></h1>
-
-    <p>Being an empirical researcher, I'd like to recommend a number of "manuals" that helped me set foot in the academic world:</p>
-    <ul>
-      <li> <a href="http://web.stanford.edu/%7Egentzkow/research/CodeAndData.pdf" target="_blank">"Code and Data for the Social Sciences: A Practitioner's Guide"</a>, by J. Shapiro and M. Gentzkow</li>
-      <li><a href="http://faculty.chicagobooth.edu/john.cochrane/research/papers/phd_paper_writing.pdf" target="_blank">"Writing Tips for Ph. D. Students"</a>, by J. Cochrane</li>
-      <li>"Some Research and Writing Tips", <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2541366" target="_blank">Part 1 (Research)</a> and <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2552669" target="_blank">Part 2 (Writing)</a>, by B. Jacobsen</li>
-      <li><a href="http://www.greenteapress.com/thinkpython/" target="_blank">"Think Python: How to Think Like a Computer Scientist"</a>, by A. Downey</li>
-    </ul>
-  </div>
+      <p>Being an empirical researcher, I'd like to recommend a number of "manuals" that helped me set foot in the academic world:</p>
+      <ul>
+        <li> <a href="http://web.stanford.edu/%7Egentzkow/research/CodeAndData.pdf" target="_blank">"Code and Data for the Social Sciences: A Practitioner's Guide"</a>, by J. Shapiro and M. Gentzkow</li>
+        <li><a href="http://faculty.chicagobooth.edu/john.cochrane/research/papers/phd_paper_writing.pdf" target="_blank">"Writing Tips for Ph. D. Students"</a>, by J. Cochrane</li>
+        <li>"Some Research and Writing Tips", <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2541366" target="_blank">Part 1 (Research)</a> and <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2552669" target="_blank">Part 2 (Writing)</a>, by B. Jacobsen</li>
+        <li><a href="http://www.greenteapress.com/thinkpython/" target="_blank">"Think Python: How to Think Like a Computer Scientist"</a>, by A. Downey</li>
+      </ul>
+    </div>
+  </section>
 
 </body>
 
 <footer class="panel-footer">
-  <!-- Contact -->
-  <h3><strong><span style="color: rgb(0, 0, 0);">Contact</span></strong></h3></div>
-  <p>
-    <i class="fa fa-envelope" style="color:#000000";></i> <a href="mailto:Michael.Ernst.Rose@gmail.com">Michael.Ernst.Rose@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-linkedin" style="color:#000000";></i> <a href="https://za.linkedin.com/pub/michael-e-rose/b9/731/91a" target="_blank">Linkedin</a></span>
-  </p>
+  <section id="contact">
+    <h3><strong><span style="color: rgb(0, 0, 0);">Contact</span></strong></h3></div>
+    <p>
+      <i class="fa fa-envelope" style="color:#000000";></i> <a href="mailto:Michael.Ernst.Rose@gmail.com">Michael.Ernst.Rose@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-linkedin" style="color:#000000";></i> <a href="https://za.linkedin.com/pub/michael-e-rose/b9/731/91a" target="_blank">Linkedin</a></span>
+    </p>
+  </section>
 </footer>
 
 </html>
