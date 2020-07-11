@@ -1,42 +1,56 @@
 body {
-    margin:0;
-    padding:0;
-    background:#7783b0 !important;
-    height:100%;
-    font:16px/1.8 sans-serif;
-    font-weight:400;
-    color:#faebd7 !important;
+    margin: 0;
+    padding: 0;
+    background: #7783b0 !important;
+    height: 100%;
+    font: 16px/1.8 sans-serif;
+    font-weight: 400;
+    color: #faebd7 !important;
 }
 
 .jumbotron {
-    background-color:transparent !important;
+    background-color: transparent !important;
 }
 
 a {
-    color:#2c2926;
+    color: #2c2926;
 }
 
 h1, h2, h3{
-    color:#faebd7 !important;
+    color: #faebd7 !important;
 }
 
 papertitle {
-    font-style:italic;
-    font-size:1.2em;
+    font-style:bold;
+    font-size: 1.3em;
 }
 
 #intro {
-    margin-top:50px;
+    margin-top: 50px;
     padding: 0 0 10%;
-    background-color:#3d4f8f;
+    background-color: #3d4f8f;
     margin:0;
 }
 
 form[type="button"]
 {
-    color:#2c2926;
+    color: #2c2926;
 }
 
 .black {
-    color:#000000;
+    color: #000000;
+}
+
+li {
+    list-style-type: none;
+    position: relative;
+}
+
+li::before {
+    content: "·";
+    vertical-align: middle;
+    position: absolute;
+    left: -0.4em;
+    font-size: 3.3em;      /* Adjust this value so that it appears what size you want. */
+    line-height: 35px;
 }
