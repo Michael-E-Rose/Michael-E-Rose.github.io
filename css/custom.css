@@ -22,7 +22,7 @@ h1, h2, h3{
 
 papertitle {
     font-style:bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 #intro {
@@ -42,6 +42,7 @@ form[type="button"]
 }
 
 li {
+    margin: 30px 0;
     list-style-type: none;
     position: relative;
 }
@@ -51,6 +52,6 @@ li::before {
     vertical-align: middle;
     position: absolute;
     left: -0.4em;
-    font-size: 3.3em;      /* Adjust this value so that it appears what size you want. */
+    font-size: 3.5em;
     line-height: 35px;
 }
