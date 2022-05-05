@@ -6,6 +6,7 @@ body {
     font: 16px/1.8 sans-serif;
     font-weight: 400;
     color: #faebd7 !important;
+    line-height: normal;
 }
 
 .jumbotron {
@@ -20,9 +21,10 @@ h1, h2, h3{
     color: #faebd7 !important;
 }
 
-papertitle {
-    font-style:bold;
+p.papertitle {
+    font-style: bold;
     font-size: 1.5em;
+    /*line-height: normal;*/
 }
 
 #intro {
@@ -52,6 +54,6 @@ li::before {
     vertical-align: middle;
     position: absolute;
     left: -0.4em;
-    font-size: 3.5em;
-    line-height: 35px;
+    font-size: 4em;
+    line-height: 33px;
 }
