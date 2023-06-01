@@ -1,59 +1,68 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #7783b0 !important;
-    height: 100%;
-    font: 16px/1.8 sans-serif;
-    font-weight: 400;
-    color: #faebd7 !important;
-    line-height: normal;
+  margin: 0;
+  padding: 0;
+  background: #181c2e;
+  height: 100%;
+  font: 16px/1.8 sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: normal;
 }
 
 .jumbotron {
-    background-color: transparent !important;
+  background-color: transparent;
 }
 
 a {
-    color: #2c2926;
+  color: #5493b4;
+  text-decoration: none;
 }
 
-h1, h2, h3{
-    color: #faebd7 !important;
+a:hover {
+  color: #366f94;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
 }
 
 p.papertitle {
-    font-style: bold;
-    font-size: 1.5em;
-    /*line-height: normal;*/
+  font-style: bold;
+  font-size: 1.5em;
 }
 
 #intro {
-    margin-top: 50px;
-    padding: 0 0 10%;
-    background-color: #3d4f8f;
-    margin:0;
+  margin-top: 50px;
+  padding: 0 0 10%;
+  background-color: #252a42;
+  margin: 0;
 }
 
-form[type="button"]
-{
-    color: #2c2926;
+.btn.btn-secondary {
+  color: #000000;
+}
+
+.btn.btn-secondary:hover {
+  color: #000000;
+  background-color: #181c2e;
+  border-color: #181c2e;
 }
 
 .black {
-    color: #000000;
+  color: #000000;
 }
 
 li {
-    margin: 30px 0;
-    list-style-type: none;
-    position: relative;
+  margin: 30px 0;
+  list-style-type: none;
+  position: relative;
 }
 
 li::before {
-    content: "·";
-    vertical-align: middle;
-    position: absolute;
-    left: -0.4em;
-    font-size: 4em;
-    line-height: 33px;
+  content: "·";
+  vertical-align: middle;
+  position: absolute;
+  left: -0.4em;
+  font-size: 4em;
+  line-height: 33px;
 }
