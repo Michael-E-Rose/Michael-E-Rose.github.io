@@ -1,6 +1,15 @@
-- section: "Full research papers and conference proceedings"
+- section: "Social Structure of Science"
   entries:
+    - title: "Trump, Iran, and Science"
+      type: "Work in Progress"
+      authors: "with Stefano H. Baruffaldi and Carolin Formella"
+
+    - title: "Nobelwomen: Status and Gender Balance in Science"
+      type: "Work in Progress"
+      authors: "with Laura Rosendahl Huber and Stefano H. Baruffaldi"
+
     - title: "Allegations of Sexual Misconduct, Accused Scientists, and Their Research"
+      type: "Journal article"
       article_url: "https://direct.mit.edu/rest/article-abstract/doi/10.1162/REST.a.1613/133146/Sexual-Misconduct-Accused-Scientists-and-Their"
       journal: "Review of Economics and Statistics, forthcoming"
       authors: "with Rainer Widmann and Marina Chugunova"
@@ -12,17 +21,8 @@
           label: "Replication repository"
           url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FUVPPAK"
 
-    - title: "Digitalization and Signatures: Evidence from a Survey among German Citizens"
-      article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5201735"
-      journal: "Transforming Government: People, Process and Policy"
-      authors: "with Jörg Hoffmann and Dietmar Harhoff"
-
-    - title: "Digital Consumer Law, Competition and the (Un-)Informed Consumer: Evidence from a Survey among German Consumers"
-      article_url: "https://kluwerlawonline.com/journalarticle/Journal+of+European+Consumer+and+Market+Law/14.4/EuCML2025027"
-      journal: "Journal of European Consumer and Market Law 14(4), 2025"
-      authors: "with Jörg Hoffmann and Dietmar Harhoff"
-
     - title: "Sprynger: Scriptable Bibliometrics using a Python Interface to Springer Nature"
+      type: "Journal article"
       article_url: "https://www.sciencedirect.com/science/article/pii/S2352711025001530"
       journal: "SoftwareX 31 (September) 2025"
       authors: "with Nils Herrmann"
@@ -32,6 +32,7 @@
           url: "https://sprynger.readthedocs.io/en/stable/"
 
     - title: "Finding Doppelgängers in Scopus: How to Build Scientists Control Groups Using Sosia"
+      type: "Journal article"
       article_url: "https://link.springer.com/article/10.1007/s11192-025-05298-y"
       journal: "Scientometrics, 2025"
       authors: "with Stefano H. Baruffaldi"
@@ -43,12 +44,20 @@
           label: "Software repository"
           url: "https://github.com/sosia-dev/sosia"
 
-    - title: "Logic Mill - A Knowledge Navigation System"
-      article_url: "https://ceur-ws.org/Vol-3775/paper7.pdf"
-      journal: "Proceedings of the 5th Workshop on Patent Text Mining and Semantic Technologies (PatentSemTech 2024), Washington D.C., USA, July 28th, 2024"
-      authors: "with Sebastian Ehrhardt, Mainak Ghosh, Erik Buunk and Dietmar Harhoff"
+    - title: "Shelter in Scholarship: Evidence from a Global Survey of Hosts for Displaced Ukrainian Scientists"
+      type: "Preprint"
+      article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4683969"
+      journal: "Max Planck Institute for Innovation & Competition Research Paper No. 24-01"
+      authors: "with Katarína Juríková, Marina Pelepets, Olga Slivko and Julia Yereshko"
+
+    - title: "Reproducibility in Management Science"
+      type: "Journal article"
+      article_url: "https://doi.org/10.1287/mnsc.2023.03556"
+      journal: "Management Science 70(30), 2024"
+      authors: "as part of the Management Science Reproducibility Collaboration; main authors: Miloš Fišar, Ben Greiner, Christoph Huber, Elena Katok and Ali Ozkes"
 
     - title: "Adviser connectedness and placement outcomes in the economics job market"
+      type: "Journal article"
       article_url: "https://doi.org/10.1016/j.labeco.2023.102397"
       journal: "Labour Economics 84(102397), 2023"
       authors: "with Suraj Shekhar"
@@ -67,6 +76,7 @@
           url: "https://www.slideshare.net/MichaelERose/adviser-connectedness-and-placement-outcomes-in-the-economics-job-market"
 
     - title: "Discussants"
+      type: "Journal article"
       article_url: "https://www.sciencedirect.com/science/article/pii/S004873332200110X"
       journal: "Research Policy 51(10), 2022"
       authors: "with Daniel C. Opolot and Co-Pierre Georg"
@@ -84,7 +94,35 @@
           label: "Slides"
           url: "https://www.slideshare.net/MichaelERose/discussants"
 
+    - title: "Funding databases for Ukrainian academics"
+      type: "Letter"
+      article_url: "https://www.science.org/doi/10.1126/science.add9155"
+      journal: "Science 377(6605), July 2022"
+      authors: "with Valentina Mosienko, Marina Pelepets and Sanita Reinsone"
+
+    - title: "Addressing the needs of Ukrainian scholars at risk"
+      type: "Letter"
+      article_url: "https://www.nature.com/articles/s41562-022-01387-7"
+      journal: "Nature Human Behaviour 6(6), June 2022"
+      authors: "with Maciej Maryl, Oleksandra V. Ivashchenko, Matiss Reinfelds and Sanita Reinsone"
+
+    - title: "Small World: Narrow, Wide and Long Replication of Goyal, Van Der Leij and Moraga-González (JPE 2006) and a Comparison of Econlit and Scopus"
+      type: "Journal article"
+      article_url: "https://onlinelibrary.wiley.com/doi/10.1002/jae.2886"
+      journal: "Journal of Applied Econometrics 37(4), 2022"
+      links:
+        - type: "replication"
+          label: "Replication repository"
+          url: "http://qed.econ.queensu.ca/jae/datasets/rose001/"
+
+    - title: "Women in Creative Labor: Inventors, Entrepreneurs and Academics"
+      type: "Book chapter"
+      article_url: "https://www.nomos-elibrary.de/10.5771/9783748924869.pdf#page=135"
+      journal: "Ulla Weber (ed.): Fundamental Questions. Gender Dimensions in Max Planck Research Projects, Nomos: 2021, p. 135-154"
+      authors: "with Laura Bechthold, Marina Chugunova, Svenja Friess and Karin Hoisl"
+
     - title: "The Rise of Multiple Institutional Affiliations"
+      type: "Journal article"
       article_url: "https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.24472"
       journal: "Journal of the Association for Information Science and Technology 72(8), 2021"
       authors: "with Hanna Hottenrott and Cornelia Lawson"
@@ -100,6 +138,7 @@
           url: "https://github.com/Michael-E-Rose/The-Rise-of-Multiple-Institutional-Affiliations"
 
     - title: "What 5,000 Acknowledgements Tell Us About Informal Collaboration in Financial Economics"
+      type: "Journal article"
       article_url: "https://www.sciencedirect.com/science/article/abs/pii/S0048733321000408"
       journal: "Research Policy 50(6), July 2021"
       authors: "with Co-Pierre Georg"
@@ -127,6 +166,7 @@
           url: "https://www.slideshare.net/MichaelERose/what-5000-acknowledgements-tell-us-about-informal-collaboration-in-financial-economics"
 
     - title: "pybliometrics: Scriptable bibliometrics using a Python interface to Scopus"
+      type: "Journal article"
       article_url: "https://www.sciencedirect.com/science/article/pii/S2352711019300573"
       journal: "SoftwareX 10 (July-December) 2019"
       authors: "with John R. Kitchin"
@@ -138,29 +178,46 @@
           label: "Software repository"
           url: "https://github.com/pybliometrics-dev/pybliometrics"
 
-- section: "Peer-reviewed replications"
+- section: "Technology Transfer"
   entries:
-    - title: "Reproducibility in Management Science"
-      article_url: "https://doi.org/10.1287/mnsc.2023.03556"
-      journal: "Management Science 70(30), 2024"
-      authors: "as part of the Management Science Reproducibility Collaboration; main authors: Miloš Fišar, Ben Greiner, Christoph Huber, Elena Katok and Ali Ozkes"
+    - title: "Tracing the Flow of Knowledge From Science to Technology Using Deep Learning"
+      type: "Work in Progress"
+      authors: "with Dietmar Harhoff, Erik Buunk, Cheng Li, Sebastian Ehrhardt and Mainak Ghosh"
 
-    - title: "Small World: Narrow, Wide and Long Replication of Goyal, Van Der Leij and Moraga-González (JPE 2006) and a Comparison of Econlit and Scopus"
-      article_url: "https://onlinelibrary.wiley.com/doi/10.1002/jae.2886"
-      journal: "Journal of Applied Econometrics 37(4), 2022"
-      links:
-        - type: "replication"
-          label: "Replication repository"
-          url: "http://qed.econ.queensu.ca/jae/datasets/rose001/"
+    - title: "Logic Mill - A Knowledge Navigation System"
+      type: "Conference proceeding"
+      article_url: "https://ceur-ws.org/Vol-3775/paper7.pdf"
+      journal: "Proceedings of the 5th Workshop on Patent Text Mining and Semantic Technologies (PatentSemTech 2024), Washington D.C., USA, July 28th, 2024"
+      authors: "with Sebastian Ehrhardt, Mainak Ghosh, Erik Buunk and Dietmar Harhoff"
 
-- section: "Policy pieces (partly peer-reviewed)"
+    - title: "PaECTER: Patent-level Representation Learning using Citation-informed Transformers"
+      type: "Preprint"
+      article_url: "https://arxiv.org/abs/2402.19411"
+      journal: "arXiv 2402.19411, February 2024"
+      authors: "with Mainak Ghosh, Sebastian Ehrhardt, Erik Buunk and Dietmar Harhoff"
+
+- section: "Digital Transformation"
   entries:
+    - title: "Digitalization and Signatures: Evidence from a Survey among German Citizens"
+      type: "Journal article"
+      article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5201735"
+      journal: "Transforming Government: People, Process and Policy"
+      authors: "with Jörg Hoffmann and Dietmar Harhoff"
+
+    - title: "Digital Consumer Law, Competition and the (Un-)Informed Consumer: Evidence from a Survey among German Consumers"
+      type: "Journal article"
+      article_url: "https://kluwerlawonline.com/journalarticle/Journal+of+European+Consumer+and+Market+Law/14.4/EuCML2025027"
+      journal: "Journal of European Consumer and Market Law 14(4), 2025"
+      authors: "with Jörg Hoffmann and Dietmar Harhoff"
+
     - title: "Unwissende Bürger, uninformierte Verbraucher: Wenn digitale Vereinfachungen ins Leere laufen"
+      type: "Policy piece"
       article_url: "https://www.ifo.de/publikationen/2025/aufsatz-zeitschrift/unwissende-buerger-uninformierte-verbraucher"
       journal: "ifo Schnelldienst (Germany) 78(08), 2025"
       authors: "with Jörg Hoffmann and Dietmar Harhoff"
 
     - title: "Wer hat die elektronische Ausweisfunktion aktiviert?"
+      type: "Policy piece"
       article_url: "https://www.wirtschaftsdienst.eu/inhalt/jahr/2025/heft/7/beitrag/wer-hat-die-elektronische-ausweisfunktion-aktiviert.html"
       journal: "Wirtschaftsdienst (Germany) 105(7), 2025"
       authors: "with Jörg Hoffmann and Dietmar Harhoff"
@@ -169,54 +226,16 @@
           label: "Tagesspiegel Background Digitalisierung"
           url: "https://background.tagesspiegel.de/digitalisierung-und-ki/briefing/personalausweis-ein-drittel-hat-onlinefunktion-aktiviert"
 
+- section: "Sovereign Debt"
+  entries:
     - title: "Debt must be invested, not consumed"
+      type: "Policy piece"
       article_url: "https://econrsa.org/publications/debt-must-be-invested-not-consumed/"
       journal: "ERSA Research Brief (South Africa) 36, August 2015"
       authors: "with Co-Pierre Georg and Hylton Hollander"
 
     - title: "Four Lessons from the Greek sovereign debt crisis"
+      type: "Policy piece"
       article_url: "https://econrsa.org/publications/four-lessons-from-the-greek-sovereign-debt-crisis/"
       journal: "ERSA Research Brief (South Africa) 34, July 2015"
       authors: "with Co-Pierre Georg and Hylton Hollander"
-
-- section: "Letters/Correspondences"
-  entries:
-    - title: "Funding databases for Ukrainian academics"
-      article_url: "https://www.science.org/doi/10.1126/science.add9155"
-      journal: "Science 377(6605), July 2022"
-      authors: "with Valentina Mosienko, Marina Pelepets and Sanita Reinsone"
-
-    - title: "Addressing the needs of Ukrainian scholars at risk"
-      article_url: "https://www.nature.com/articles/s41562-022-01387-7"
-      journal: "Nature Human Behaviour 6(6), June 2022"
-      authors: "with Maciej Maryl, Oleksandra V. Ivashchenko, Matiss Reinfelds and Sanita Reinsone"
-
-- section: "Book chapters"
-  entries:
-    - title: "Women in Creative Labor: Inventors, Entrepreneurs and Academics"
-      article_url: "https://www.nomos-elibrary.de/10.5771/9783748924869.pdf#page=135"
-      journal: "Ulla Weber (ed.): Fundamental Questions. Gender Dimensions in Max Planck Research Projects, Nomos: 2021, p. 135-154"
-      authors: "with Laura Bechthold, Marina Chugunova, Svenja Friess and Karin Hoisl"
-
-- section: "Working Papers"
-  entries:
-    - title: "PaECTER: Patent-level Representation Learning using Citation-informed Transformers"
-      article_url: "https://arxiv.org/abs/2402.19411"
-      journal: "arXiv 2402.19411, February 2024"
-      authors: "with Mainak Ghosh, Sebastian Ehrhardt, Erik Buunk and Dietmar Harhoff"
-
-    - title: "Shelter in Scholarship: Evidence from a Global Survey of Hosts for Displaced Ukrainian Scientists"
-      article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4683969"
-      journal: "Max Planck Institute for Innovation & Competition Research Paper No. 24-01"
-      authors: "with Katarína Juríková, Marina Pelepets, Olga Slivko and Julia Yereshko"
-
-- section: "Work in Progress"
-  entries:
-    - title: "Trump, Iran, and Science"
-      authors: "with Stefano H. Baruffaldi and Carolin Formella"
-
-    - title: "Nobelwomen: Status and Gender Balance in Science"
-      authors: "with Laura Rosendahl Huber and Stefano H. Baruffaldi"
-
-    - title: "Tracing the Flow of Knowledge From Science to Technology Using Deep Learning"
-      authors: "with Dietmar Harhoff, Erik Buunk, Cheng Li, Sebastian Ehrhardt and Mainak Ghosh"
