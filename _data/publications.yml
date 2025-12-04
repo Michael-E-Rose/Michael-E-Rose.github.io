@@ -44,12 +44,6 @@
           label: "Software repository"
           url: "https://github.com/sosia-dev/sosia"
 
-    - title: "Shelter in Scholarship: Evidence from a Global Survey of Hosts for Displaced Ukrainian Scientists"
-      type: "Preprint"
-      article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4683969"
-      journal: "Max Planck Institute for Innovation & Competition Research Paper No. 24-01"
-      authors: "with Katarína Juríková, Marina Pelepets, Olga Slivko and Julia Yereshko"
-
     - title: "Reproducibility in Management Science"
       type: "Journal article"
       article_url: "https://doi.org/10.1287/mnsc.2023.03556"
@@ -93,18 +87,6 @@
         - type: "slides"
           label: "Slides"
           url: "https://www.slideshare.net/MichaelERose/discussants"
-
-    - title: "Funding databases for Ukrainian academics"
-      type: "Letter"
-      article_url: "https://www.science.org/doi/10.1126/science.add9155"
-      journal: "Science 377(6605), July 2022"
-      authors: "with Valentina Mosienko, Marina Pelepets and Sanita Reinsone"
-
-    - title: "Addressing the needs of Ukrainian scholars at risk"
-      type: "Letter"
-      article_url: "https://www.nature.com/articles/s41562-022-01387-7"
-      journal: "Nature Human Behaviour 6(6), June 2022"
-      authors: "with Maciej Maryl, Oleksandra V. Ivashchenko, Matiss Reinfelds and Sanita Reinsone"
 
     - title: "Small World: Narrow, Wide and Long Replication of Goyal, Van Der Leij and Moraga-González (JPE 2006) and a Comparison of Econlit and Scopus"
       type: "Journal article"
@@ -177,6 +159,32 @@
         - type: "code"
           label: "Software repository"
           url: "https://github.com/pybliometrics-dev/pybliometrics"
+
+- section: "Ukrainian Science"
+  entries:
+    - title: "Shelter in Scholarship: Evidence from a Global Survey of Hosts for Displaced Ukrainian Scientists"
+      type: "Preprint"
+      article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4683969"
+      journal: "Max Planck Institute for Innovation & Competition Research Paper No. 24-01"
+      authors: "with Katarína Juríková, Marina Pelepets, Olga Slivko and Julia Yereshko"
+
+    - title: "Funding databases for Ukrainian academics"
+      type: "Letter"
+      article_url: "https://www.science.org/doi/10.1126/science.add9155"
+      journal: "Science 377(6605), July 2022"
+      authors: "with Valentina Mosienko, Marina Pelepets and Sanita Reinsone"
+      
+    - title: "#ScienceForUkraine: an Initiative to Support the Ukrainian Academic Community. “3 Months Since Russia’s Invasion in Ukraine”, February 26 – May 31, 2022"
+      type: "Report"
+      article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4139263"
+      journal: "Max Planck Institute for Innovation & Competition Research Paper No. 22-13"
+      authors: "with Sanita Reinsone and 39 other volunteers from #ScienceForUkraine"
+
+    - title: "Addressing the needs of Ukrainian scholars at risk"
+      type: "Letter"
+      article_url: "https://www.nature.com/articles/s41562-022-01387-7"
+      journal: "Nature Human Behaviour 6(6), June 2022"
+      authors: "with Maciej Maryl, Oleksandra V. Ivashchenko, Matiss Reinfelds and Sanita Reinsone"
 
 - section: "Technology Transfer"
   entries:
