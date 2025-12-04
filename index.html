@@ -91,11 +91,21 @@ layout: null
                   {{ p.title }}
                 {% endif %}
                 {% if p.journal %}
-                  <span class="paper-journal"> – {{ p.journal }}</span>
+                  <span class="paper-journal-inline">
+                    &nbsp;({{ p.journal }})
+                  </span>
                 {% endif %}
               </span>
             </summary>
             <div class="paper-body">
+
+              {% if p.journal or p.issue %}
+                <p class="text-start">
+                  <i class="far fa-newspaper"></i>
+                  {% if p.journal %}{{ p.journal }}{% endif %}
+                  {% if p.issue %}{{ p.issue }}{% endif %}
+                </p>
+              {% endif %}
 
               {% if p.authors %}
                 <p class="text-start"><i class="fa fa-users"></i> {{ p.authors }}</p>
