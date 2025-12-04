@@ -24,7 +24,7 @@ h1, h2, h3 {
 
 span.papertitle {
   font-style: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #intro {
@@ -46,6 +46,18 @@ span.papertitle {
 
 .black {
   color: #000000;
+}
+
+.external-link {
+  margin-left: 6px;
+  font-size: 0.85em;
+}
+
+.paper-journal {
+  font-size: 0.85em;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-left: 6px;
 }
 
 li {
