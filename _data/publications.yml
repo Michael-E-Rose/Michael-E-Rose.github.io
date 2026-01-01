@@ -202,7 +202,9 @@
 - section: "Technology Transfer"
   entries:
     - title: "Tracing the Flow of Knowledge From Science to Technology Using Deep Learning"
-      type: "Work in Progress"
+      type: "Preprint"
+      article_url: "https://arxiv.org/abs/2512.24259"
+      issue: "arXiv:2512.24259, December 2025"
       authors: "with Dietmar Harhoff, Erik Buunk, Cheng Li, Sebastian Ehrhardt and Mainak Ghosh"
 
     - title: "Logic Mill - A Knowledge Navigation System"
