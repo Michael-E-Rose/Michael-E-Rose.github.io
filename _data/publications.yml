@@ -174,9 +174,10 @@
 - section: "Ukrainian Science"
   entries:
     - title: "Shelter in Scholarship: Evidence from a Global Survey of Hosts for Displaced Ukrainian Scientists"
-      type: "Preprint"
+      type: "Journal article"
       article_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4683969"
-      issue: "Max Planck Institute for Innovation & Competition Research Paper No. 24-01"
+      journal: "Research Policy"
+      issue: ", forthcoming"
       authors: "with Katarína Juríková, Marina Pelepets, Olga Slivko and Julia Yereshko"
 
     - title: "Funding databases for Ukrainian academics"
