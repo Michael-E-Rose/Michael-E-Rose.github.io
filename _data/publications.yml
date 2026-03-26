@@ -229,6 +229,10 @@
       journal: "Transforming Government: People, Process and Policy"
       issue: ", forthcoming"
       authors: "with Jörg Hoffmann and Dietmar Harhoff"
+      links:
+        - type: "media"
+          label: "Forschung und Lehre 3/26"
+          url: "https://www.forschung-und-lehre.de/heftarchiv/ausgabe-03/26"
 
     - title: "Digital Consumer Law, Competition and the (Un-)Informed Consumer: Evidence from a Survey among German Consumers"
       type: "Journal article"
