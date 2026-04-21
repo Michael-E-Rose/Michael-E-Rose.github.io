@@ -233,6 +233,9 @@
         - type: "media"
           label: "Forschung und Lehre 3/26"
           url: "https://www.forschung-und-lehre.de/heftarchiv/ausgabe-03/26"
+        - type: "replication"
+          label: "Replication repository"
+          url: "https://github.com/Michael-E-Rose/digitization-survey"
 
     - title: "Digital Consumer Law, Competition and the (Un-)Informed Consumer: Evidence from a Survey among German Consumers"
       type: "Journal article"
@@ -240,6 +243,10 @@
       journal: "Journal of European Consumer and Market Law"
       issue: " 14(4), 2025"
       authors: "with Jörg Hoffmann and Dietmar Harhoff"
+      links:
+        - type: "replication"
+          label: "Replication repository"
+          url: "https://github.com/Michael-E-Rose/digitization-survey"
 
     - title: "Unwissende Bürger, uninformierte Verbraucher: Wenn digitale Vereinfachungen ins Leere laufen"
       type: "Policy piece"
@@ -247,6 +254,10 @@
       journal: "ifo Schnelldienst"
       issue: " 78(08), 2025"
       authors: "with Jörg Hoffmann and Dietmar Harhoff"
+      links:
+        - type: "replication"
+          label: "Replication repository"
+          url: "https://github.com/Michael-E-Rose/digitization-survey"
 
     - title: "Wer hat die elektronische Ausweisfunktion aktiviert?"
       type: "Policy piece"
@@ -258,6 +269,9 @@
         - type: "media"
           label: "Tagesspiegel Background Digitalisierung"
           url: "https://background.tagesspiegel.de/digitalisierung-und-ki/briefing/personalausweis-ein-drittel-hat-onlinefunktion-aktiviert"
+        - type: "replication"
+          label: "Replication repository"
+          url: "https://github.com/Michael-E-Rose/digitization-survey"
 
 - section: "Sovereign Debt"
   entries:
