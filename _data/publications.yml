@@ -2,11 +2,11 @@
   entries:
     - title: "Trump, Iran, and Science"
       type: "Work in Progress"
-      authors: "with Stefano H. Baruffaldi and Carolin Formella"
+      authors: "with Stefano H. Baruffaldi"
 
     - title: "Nobelwomen: Status and Gender Balance in Science"
       type: "Work in Progress"
-      authors: "with Laura Rosendahl Huber and Stefano H. Baruffaldi"
+      authors: "with Laura Rosendahl Huber, Stefano H. Baruffaldi and Sofie Cairo"
 
     - title: "Sexual Misconduct, Accused Scientists, and Their Research"
       type: "Journal article"
@@ -205,6 +205,28 @@
 
 - section: "Technology Transfer"
   entries:
+
+    - title: "Restricted Talent: How Migration Policies Shape Knowledge Flows in Science and Innovation"
+      type: "Work in Progress"
+      authors: "with Carolin Formella and Stefano Baruffaldi"
+
+    - title: "Understanding the Role of Knowledge Diversity in the Commercialization of University Inventions: Evidence from China"
+      type: "Work in Progress"
+      authors: "with Shu Wang and Deli Cheng"
+
+    - title: "Localized Knowledge Spillovers Revisited: A Replication of Jaffe, Trajtenberg & Henderson (1993) with Semantic Distance between Patents Using Logic Mill"
+      type: "Work in Progress"
+      authors: "with Kaan Uctum and Hanna Hottenrott"
+
+    - title: "Who Patents Public Research? New Evidence on the European Paradox  
+"
+      type: "Work in Progress"
+      authors: "with Dietmar Harhoff"
+
+    - title: "Predicting Inventive Step with Embeddings"
+      type: "Work in Progress"
+      authors: "with Dietmar Harhoff"
+
     - title: "Tracing the Flow of Knowledge From Science to Technology Using Deep Learning"
       type: "Preprint"
       article_url: "https://arxiv.org/abs/2512.24259"
