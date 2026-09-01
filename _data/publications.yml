@@ -233,18 +233,19 @@
       issue: "arXiv:2512.24259, December 2025"
       authors: "with Dietmar Harhoff, Erik Buunk, Cheng Li, Sebastian Ehrhardt and Mainak Ghosh"
 
+    - title: "PaECTER: Patent-level Representation Learning using Citation-informed Transformers"
+      type: "Journal article"
+      article_url: "https://arxiv.org/abs/2402.19411"
+      journal: "PLOS ONE"
+      issue: ", forthcoming"
+      authors: "with Mainak Ghosh, Sebastian Ehrhardt, Erik Buunk and Dietmar Harhoff"
+
     - title: "Logic Mill - A Knowledge Navigation System"
       type: "Conference proceeding"
       article_url: "https://ceur-ws.org/Vol-3775/paper7.pdf"
       journal: "PatentSemTech 2024"
       issue: "as part of the Proceedings of the 5th Workshop on Patent Text Mining and Semantic Technologies, Washington D.C., USA, July 28th, 2024"
       authors: "with Sebastian Ehrhardt, Mainak Ghosh, Erik Buunk and Dietmar Harhoff"
-
-    - title: "PaECTER: Patent-level Representation Learning using Citation-informed Transformers"
-      type: "Preprint"
-      article_url: "https://arxiv.org/abs/2402.19411"
-      issue: "arXiv 2402.19411, February 2024"
-      authors: "with Mainak Ghosh, Sebastian Ehrhardt, Erik Buunk and Dietmar Harhoff"
 
 - section: "Digital Transformation"
   entries:
