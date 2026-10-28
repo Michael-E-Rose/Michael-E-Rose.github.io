@@ -235,9 +235,9 @@
 
     - title: "PaECTER: Patent-level Representation Learning using Citation-informed Transformers"
       type: "Journal article"
-      article_url: "https://arxiv.org/abs/2402.19411"
+      article_url: "https://doi.org/10.1371/journal.pone.0358188"
       journal: "PLOS ONE"
-      issue: ", forthcoming"
+      issue: "21(10), e0358188, 2026"
       authors: "with Mainak Ghosh, Sebastian Ehrhardt, Erik Buunk and Dietmar Harhoff"
 
     - title: "Logic Mill - A Knowledge Navigation System"
